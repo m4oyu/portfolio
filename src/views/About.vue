@@ -3,7 +3,7 @@
   <h1 class="mt-4">About</h1>
   <b-row>
     <div class="col-5 mt-4 mb-5">
-      <img src="../assets/akutagawa.jpg" alt="akucchan">
+      <img src="@/assets/akutagawa.jpg" alt="akucchan">
     </div>
     <div class="col-7">
       <div class="container mt-5">

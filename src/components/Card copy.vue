@@ -1,21 +1,15 @@
 <template>
-    <div class="my-3">
-        <b-card
-        title="Card Title"
-        img-src="https://picsum.photos/600/300/?image=25"
-        img-alt="Image"
-        img-top
-        tag="article"
-        style="max-width: 40rem;"
-        class="mb-2"
-        >
-            <b-card-text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-
-            <b-button href="#" variant="primary">Go somewhere</b-button>
-        </b-card>
+<article class="card mb-2" style="max-width: 40rem;">
+    <img src="require('@/assets/tetoris.png')" alt="Tetoris" class="card-img-top"><!---->
+    <div class="card-body">
+        <h4 class="card-title">Tetoris</h4>
+        <p class="card-text"> 株式会社エムティーアイ インターンシップ事前課題 </p>
+        <a role="button" tabindex="0" target="_self" href="#" class="btn mx-1 btn-primary">Go somewhere</a>
+        <span class="badge mx-1 badge-secondary">HTML</span>
+        <span class="badge mx-1 badge-secondary">CSS</span>
+        <span class="badge mx-1 badge-secondary">JS</span>
     </div>
+</article>
 </template>
 
 <script>
